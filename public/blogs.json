@@ -2,51 +2,51 @@
     {
       "id": 1,
       "cover_img": "https://i.ibb.co/b34hjW1/Rectangle-1-1.png",
-      "title": "The Great Adventure",
+      "title": "How to get your first job as a self-taught programmer",
       "author_img": "https://i.ibb.co/Cv86d7Y/Ellipse-1.png",
       "author": "John Smith",
-      "reading_date": "2024-03-14",
-      "posted_time": "2024-03-14T08:00:00Z",
+      "reading_time": "05",
+      "posted_time": "2024-03-14",
       "hashtags": ["adventure", "fiction", "exciting"]
     },
     {
       "id": 2,
       "cover_img": "https://i.ibb.co/JBRqqHg/Rectangle-1-2.png",
-      "title": "Mystery at Midnight",
+      "title": "How to get your first job as a self-taught programmer",
       "author_img": "https://i.ibb.co/qMwMLmp/Ellipse-1-1.png",
       "author": "Emily Johnson",
-      "reading_date": "2024-03-13",
-      "posted_time": "2024-03-13T10:30:00Z",
+      "reading_time": "07",
+      "posted_time": "2024-03-13",
       "hashtags": ["mystery", "suspense", "detective"]
     },
     {
       "id": 3,
       "cover_img": "https://i.ibb.co/MPtfzzk/cover3.png",
-      "title": "Fantasy Realm",
+      "title": "How to get your first job as a self-taught programmer",
       "author_img": "https://i.ibb.co/Cv86d7Y/Ellipse-1.png",
       "author": "Michael Brown",
-      "reading_date": "2024-03-12",
-      "posted_time": "2024-03-12T15:45:00Z",
+      "reading_time": "07",
+      "posted_time": "2024-03-12",
       "hashtags": ["fantasy", "magic", "epic"]
     },
     {
       "id": 4,
       "cover_img": "https://i.ibb.co/b34hjW1/Rectangle-1-1.png",
-      "title": "Romantic Escapade",
+      "title": "How to get your first job as a self-taught programmer",
       "author_img": "https://i.ibb.co/Cv86d7Y/Ellipse-1.png",
       "author": "Sophie Clark",
-      "reading_date": "2024-03-11",
-      "posted_time": "2024-03-11T12:15:00Z",
+      "reading_time": "15",
+      "posted_time": "2024-03-11",
       "hashtags": ["romance", "love", "relationship"]
     },
     {
       "id": 5,
       "cover_img": "https://i.ibb.co/JBRqqHg/Rectangle-1-2.png",
-      "title": "Science Explorations",
+      "title": "How to get your first job as a self-taught programmer",
       "author_img": "https://i.ibb.co/Cv86d7Y/Ellipse-1.png",
       "author": "David Lee",
-      "reading_date": "2024-03-10",
-      "posted_time": "2024-03-10T09:20:00Z",
+      "reading_time": "08",
+      "posted_time": "2024-03-10",
       "hashtags": ["science", "exploration", "discovery"]
     }
   ]
