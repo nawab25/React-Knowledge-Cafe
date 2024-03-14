@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover_img": "https://i.ibb.co/b34hjW1/Rectangle-1-1.png",
+      "title": "The Great Adventure",
+      "author_img": "https://i.ibb.co/Cv86d7Y/Ellipse-1.png",
+      "author": "John Smith",
+      "reading_date": "2024-03-14",
+      "posted_time": "2024-03-14T08:00:00Z",
+      "hashtags": ["adventure", "fiction", "exciting"]
+    },
+    {
+      "id": 2,
+      "cover_img": "https://i.ibb.co/JBRqqHg/Rectangle-1-2.png",
+      "title": "Mystery at Midnight",
+      "author_img": "https://i.ibb.co/qMwMLmp/Ellipse-1-1.png",
+      "author": "Emily Johnson",
+      "reading_date": "2024-03-13",
+      "posted_time": "2024-03-13T10:30:00Z",
+      "hashtags": ["mystery", "suspense", "detective"]
+    },
+    {
+      "id": 3,
+      "cover_img": "https://i.ibb.co/MPtfzzk/cover3.png",
+      "title": "Fantasy Realm",
+      "author_img": "https://i.ibb.co/Cv86d7Y/Ellipse-1.png",
+      "author": "Michael Brown",
+      "reading_date": "2024-03-12",
+      "posted_time": "2024-03-12T15:45:00Z",
+      "hashtags": ["fantasy", "magic", "epic"]
+    },
+    {
+      "id": 4,
+      "cover_img": "https://i.ibb.co/b34hjW1/Rectangle-1-1.png",
+      "title": "Romantic Escapade",
+      "author_img": "https://i.ibb.co/Cv86d7Y/Ellipse-1.png",
+      "author": "Sophie Clark",
+      "reading_date": "2024-03-11",
+      "posted_time": "2024-03-11T12:15:00Z",
+      "hashtags": ["romance", "love", "relationship"]
+    },
+    {
+      "id": 5,
+      "cover_img": "https://i.ibb.co/JBRqqHg/Rectangle-1-2.png",
+      "title": "Science Explorations",
+      "author_img": "https://i.ibb.co/Cv86d7Y/Ellipse-1.png",
+      "author": "David Lee",
+      "reading_date": "2024-03-10",
+      "posted_time": "2024-03-10T09:20:00Z",
+      "hashtags": ["science", "exploration", "discovery"]
+    }
+  ]
+  
