@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { IoBookmarks } from "react-icons/io5";
-const Blog = ({ blog, handleBookmarks }) => {
-    const { cover_img, title, author_img, reading_time, author, posted_time, hashtags } = blog;
+const Blog = ({ blog, handleBookmarks, handleReadingTime }) => {
+    const { id, cover_img, title, author_img, reading_time, author, posted_time, hashtags } = blog;
     return (
         <div className='border-b-2 pb-6 mb-8'>
             <div className='mb-4 w-full'>
@@ -20,7 +20,7 @@ const Blog = ({ blog, handleBookmarks }) => {
                 </div>
                 <div className="flex gap-2 items-center">
                     <p>{reading_time} min read</p>
-                    <button onClick={()=> handleBookmarks(blog)} href="" className='text-2xl'>
+                    <button onClick={() => handleBookmarks(blog)} href="" className='text-2xl'>
                         <IoBookmarks></IoBookmarks>
                     </button>
                 </div>
@@ -31,13 +31,16 @@ const Blog = ({ blog, handleBookmarks }) => {
                     hashtags.map((hash, idx) => <span className='mr-3' key={idx}><a href="#">#{hash}</a></span>)
                 }
             </div>
-            <p className='mt-4 text-[blue] font-medium underline'><a href="#">Mark as read</a></p>
+            <button onClick={() => handleReadingTime(reading_time, id)}
+                className='mt-4 text-[blue] font-medium underline'>
+                Mark as read</button>
         </div>
     );
 };
 
 Blog.propTypes = {
     blog: PropTypes.object.isRequired,
-    handleBookmarks: PropTypes.func.isRequired
+    handleBookmarks: PropTypes.func.isRequired,
+    handleReadingTime: PropTypes.func.isRequired,
 }
 export default Blog;
